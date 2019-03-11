@@ -39,4 +39,3 @@ after_sbox_difference_6: A000E000F0000000
 before_rotation_difference_6_: 00A000E000F00000
 after_rotation_difference_6_: 400170000F000000
 after_blockxor_difference_6_: 300170004F014F01
-
