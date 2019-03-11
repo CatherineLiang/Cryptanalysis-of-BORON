@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 // Define the number of rounds
-#define round 9
+#define round 8
 
 int sbox[16] = { 0xe, 0x4, 0xb, 0x1, 0x7, 0x9, 0xc, 0xa, 0xd, 0x2, 0x0, 0xf, 0x8, 0x5, 0x3, 0x6 } ;
 
@@ -32,7 +32,7 @@ main()
     int i, j ;
 
     FILE *fp;
-    fp = fopen( "differential-characteristic-9.cvc", "w" ) ;
+    fp = fopen( "differential-characteristic-8.cvc", "w" ) ;
 
 
     fprintf( fp, "diff_dist: ARRAY BITVECTOR(8) OF BITVECTOR(8) ;\n" ) ;
@@ -236,7 +236,7 @@ main()
     fprintf( fp, " ) ) ; \n" ) ;
 
     // Objective Function: Limit the optimal probability and obtain the trail with the corresponding probability.
-    fprintf( fp, "ASSERT( total_probability = 0hex020 ) ;\n" ) ;
+    fprintf( fp, "ASSERT( total_probability = 0hex03e ) ;\n" ) ;
 
 
     fprintf( fp, "QUERY(FALSE) ;\n" ) ;
