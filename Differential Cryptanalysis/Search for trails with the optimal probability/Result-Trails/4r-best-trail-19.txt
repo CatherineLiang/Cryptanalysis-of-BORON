@@ -21,4 +21,3 @@ after_sbox_difference_3: 0000900090007000
 before_rotation_difference_3_: 0000009000900070
 after_rotation_difference_3_: 00004800090000E0
 after_blockxor_difference_3_: 48E048E0090009E0
-
