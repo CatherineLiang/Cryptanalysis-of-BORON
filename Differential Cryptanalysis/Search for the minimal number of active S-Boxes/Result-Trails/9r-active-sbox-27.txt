@@ -51,4 +51,3 @@ after_sbox_difference_8: 0700060000000B00
 before_rotation_difference_8_: 000700060000000B
 after_rotation_difference_8_: 0E00030000000016
 after_blockxor_difference_8_: 0D1603160E000E16
-
