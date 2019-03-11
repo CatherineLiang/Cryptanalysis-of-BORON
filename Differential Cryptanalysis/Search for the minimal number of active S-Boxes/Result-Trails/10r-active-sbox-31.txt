@@ -57,4 +57,3 @@ after_sbox_difference_9: 7000600000007000
 before_rotation_difference_9_: 0070006000000070
 after_rotation_difference_9_: E0003000000000E0
 after_blockxor_difference_9_: D0E030E0E000E0E0
-
