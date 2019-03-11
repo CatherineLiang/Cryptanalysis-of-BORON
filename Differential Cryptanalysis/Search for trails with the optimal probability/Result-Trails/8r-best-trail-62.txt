@@ -45,4 +45,3 @@ after_sbox_difference_7: 000008000E000800
 before_rotation_difference_7_: 00000008000E0008
 after_rotation_difference_7_: 0000040000E00010
 after_blockxor_difference_7_: 0410041000E000F0
-
