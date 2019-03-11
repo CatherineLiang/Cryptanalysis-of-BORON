@@ -1,0 +1,56 @@
+bias_0: 000, 000, 000, 000, 000, 000, 003, 000, 000, 002, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_0: 000000F00A000000
+after_sbox_mask_0: 000000C006000000
+before_rotation_mask_0_: 0000C00000060000
+after_rotation_mask_0_: 0000006000600000
+after_blockxor_mask_0_: 0060000000000060
+
+bias_1: 000, 000, 003, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 003, 000, 
+before_sbox_mask_1: 0060000000000060
+after_sbox_mask_1: 0040000000000030
+before_rotation_mask_1_: 4000000000003000
+after_rotation_mask_1_: 0080000000006000
+after_blockxor_mask_1_: 0080008060006000
+
+bias_2: 000, 000, 003, 000, 000, 000, 003, 000, 002, 000, 000, 000, 003, 000, 000, 000, 
+before_sbox_mask_2: 0080008060006000
+after_sbox_mask_2: 008000C010003000
+before_rotation_mask_2_: 8000C00000100030
+after_rotation_mask_2_: 0100006001000060
+after_blockxor_mask_2_: 0000006001000000
+
+bias_3: 000, 000, 000, 000, 000, 000, 002, 000, 000, 002, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_3: 0000006001000000
+after_sbox_mask_3: 0000006003000000
+before_rotation_mask_3_: 0000600000030000
+after_rotation_mask_3_: 0000003000300000
+after_blockxor_mask_3_: 0030000000000030
+
+bias_4: 000, 000, 003, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 003, 000, 
+before_sbox_mask_4: 0030000000000030
+after_sbox_mask_4: 0040000000000030
+before_rotation_mask_4_: 4000000000003000
+after_rotation_mask_4_: 0080000000006000
+after_blockxor_mask_4_: 0080008060006000
+
+bias_5: 000, 000, 003, 000, 000, 000, 003, 000, 002, 000, 000, 000, 003, 000, 000, 000, 
+before_sbox_mask_5: 0080008060006000
+after_sbox_mask_5: 008000C010003000
+before_rotation_mask_5_: 8000C00000100030
+after_rotation_mask_5_: 0100006001000060
+after_blockxor_mask_5_: 0000006001000000
+
+bias_6: 000, 000, 000, 000, 000, 000, 002, 000, 000, 002, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_6: 0000006001000000
+after_sbox_mask_6: 0000006003000000
+before_rotation_mask_6_: 0000600000030000
+after_rotation_mask_6_: 0000003000300000
+after_blockxor_mask_6_: 0030000000000030
+
+bias_7: 000, 000, 003, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 003, 000, 
+before_sbox_mask_7: 0030000000000030
+after_sbox_mask_7: 00F0000000000080
+before_rotation_mask_7_: F000000000008000
+after_rotation_mask_7_: 01E0000000000001
+after_blockxor_mask_7_: 01E001E000010001
+
