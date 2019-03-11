@@ -1,0 +1,42 @@
+before_sbox_difference_0: B000A00000230000
+after_sbox_difference_0: 1000400000520000
+before_rotation_difference_0_: 0010004052000000
+after_rotation_difference_0_: 2000200020050000
+after_blockxor_difference_0_: 0000200000050005
+
+before_sbox_difference_1: 0000200000050005
+after_sbox_difference_1: 0000300000010008
+before_rotation_difference_1_: 0000003001000800
+after_rotation_difference_1_: 0000180010001000
+after_blockxor_difference_1_: 0800080010000000
+
+before_sbox_difference_2: 0800080010000000
+after_sbox_difference_2: 03000C0060000000
+before_rotation_difference_2_: 0003000C00600000
+after_rotation_difference_2_: 0600060006000000
+after_blockxor_difference_2_: 0000060000000000
+
+before_sbox_difference_3: 0000060000000000
+after_sbox_difference_3: 00000A0000000000
+before_rotation_difference_3_: 0000000A00000000
+after_rotation_difference_3_: 0000050000000000
+after_blockxor_difference_3_: 0500050000000000
+
+before_sbox_difference_4: 0500050000000000
+after_sbox_difference_4: 03000C0000000000
+before_rotation_difference_4_: 0003000C00000000
+after_rotation_difference_4_: 0600060000000000
+after_blockxor_difference_4_: 0000060006000600
+
+before_sbox_difference_5: 0000060006000600
+after_sbox_difference_5: 0000080008000800
+before_rotation_difference_5_: 0000000800080008
+after_rotation_difference_5_: 0000040000800010
+after_blockxor_difference_5_: 0410041000800090
+
+before_sbox_difference_6: 0410041000800090
+after_sbox_difference_6: 07A007A000F00010
+before_rotation_difference_6_: A007A007F0001000
+after_rotation_difference_6_: 0F4003D0000F2000
+after_blockxor_difference_6_: 2C9023D00F4F2F4F
+
