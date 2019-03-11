@@ -1,0 +1,17 @@
+before_sbox_difference_0: 0000000800000200
+after_sbox_difference_0: 0000000C00000300
+before_rotation_difference_0_: 00000C0000000003
+after_rotation_difference_0_: 0000000600000006
+after_blockxor_difference_0_: 0000000000000006
+
+before_sbox_difference_1: 0000000000000006
+after_sbox_difference_1: 0000000000000008
+before_rotation_difference_1_: 0000000000000800
+after_rotation_difference_1_: 0000000000001000
+after_blockxor_difference_1_: 1000100000001000
+
+before_sbox_difference_2: 1000100000001000
+after_sbox_difference_2: A000A0000000A000
+before_rotation_difference_2_: 00A000A0000000A0
+after_rotation_difference_2_: 4001500000000140
+after_blockxor_difference_2_: 1141514040014141
