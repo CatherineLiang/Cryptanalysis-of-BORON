@@ -1,0 +1,48 @@
+bias_0: 002, 000, 000, 000, 000, 002, 000, 000, 000, 000, 000, 002, 000, 000, 000, 002, 
+before_sbox_mask_0: D0000D00000D000D
+after_sbox_mask_0: 4000080000080002
+before_rotation_mask_0_: 0040000808000200
+after_rotation_mask_0_: 8000040080000400
+after_blockxor_mask_0_: 0000040080000000
+
+bias_1: 000, 000, 000, 000, 000, 002, 000, 000, 002, 000, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_1: 0000040080000000
+after_sbox_mask_1: 00000A0050000000
+before_rotation_mask_1_: 0000000A00500000
+after_rotation_mask_1_: 0000050005000000
+after_blockxor_mask_1_: 0500000000000500
+
+bias_2: 000, 002, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 002, 000, 000, 
+before_sbox_mask_2: 0500000000000500
+after_sbox_mask_2: 0300000000000300
+before_rotation_mask_2_: 0003000000000003
+after_rotation_mask_2_: 0600000000000006
+after_blockxor_mask_2_: 0600060000060006
+
+bias_3: 000, 003, 000, 000, 000, 003, 000, 000, 000, 000, 000, 002, 000, 000, 000, 003, 
+before_sbox_mask_3: 0600060000060006
+after_sbox_mask_3: 0B000C0000010003
+before_rotation_mask_3_: 000B000C01000300
+after_rotation_mask_3_: 1600060010000600
+after_blockxor_mask_3_: 0600000010000000
+
+bias_4: 000, 002, 000, 000, 000, 000, 000, 000, 003, 000, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_4: 0600000010000000
+after_sbox_mask_4: 06000000C0000000
+before_rotation_mask_4_: 0006000000C00000
+after_rotation_mask_4_: 0C0000000C000000
+after_blockxor_mask_4_: 000000000C000000
+
+bias_5: 000, 000, 000, 000, 000, 000, 000, 000, 000, 002, 000, 000, 000, 000, 000, 000, 
+before_sbox_mask_5: 000000000C000000
+after_sbox_mask_5: 0000000005000000
+before_rotation_mask_5_: 0000000000050000
+after_rotation_mask_5_: 0000000000500000
+after_blockxor_mask_5_: 0050005000500000
+
+bias_6: 000, 000, 002, 000, 000, 000, 002, 000, 000, 000, 002, 000, 000, 000, 000, 000, 
+before_sbox_mask_6: 0050005000500000
+after_sbox_mask_6: 0070007000300000
+before_rotation_mask_6_: 7000700030000000
+after_rotation_mask_6_: 00E0003800030000
+after_blockxor_mask_6_: 00E300DB003B0038
