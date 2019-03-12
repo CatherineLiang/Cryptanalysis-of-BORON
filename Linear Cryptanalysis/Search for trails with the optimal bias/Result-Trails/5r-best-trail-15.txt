@@ -1,0 +1,34 @@
+bias_0: 000, 000, 000, 000, 000, 000, 000, 002, 000, 000, 002, 000, 000, 000, 000, 000, 
+before_sbox_mask_0: 0000000D00F00000
+after_sbox_mask_0: 0000000200100000
+before_rotation_mask_0_: 0000020010000000
+after_rotation_mask_0_: 0000000100010000
+after_blockxor_mask_0_: 0001000000000001
+
+bias_1: 000, 000, 000, 002, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 002, 
+before_sbox_mask_1: 0001000000000001
+after_sbox_mask_1: 0007000000000003
+before_rotation_mask_1_: 0700000000000300
+after_rotation_mask_1_: 000E000000000600
+after_blockxor_mask_1_: 000E000E06000600
+
+bias_2: 000, 000, 000, 003, 000, 000, 000, 003, 000, 002, 000, 000, 000, 002, 000, 000, 
+before_sbox_mask_2: 000E000E06000600
+after_sbox_mask_2: 0008000401000100
+before_rotation_mask_2_: 0800040000010001
+after_rotation_mask_2_: 0010000200100002
+after_blockxor_mask_2_: 0000000200100000
+
+bias_3: 000, 000, 000, 000, 000, 000, 000, 002, 000, 000, 002, 000, 000, 000, 000, 000, 
+before_sbox_mask_3: 0000000200100000
+after_sbox_mask_3: 0000000E00700000
+before_rotation_mask_3_: 00000E0070000000
+after_rotation_mask_3_: 0000000700070000
+after_blockxor_mask_3_: 0007000000000007
+
+bias_4: 000, 000, 000, 002, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 000, 002, 
+before_sbox_mask_4: 0007000000000007
+after_sbox_mask_4: 000C00000000000C
+before_rotation_mask_4_: 0C00000000000C00
+after_rotation_mask_4_: 0018000000001800
+after_blockxor_mask_4_: 0018001818001800
