@@ -25,4 +25,3 @@ after_sbox_mask_3: 0F0000000F000D00
 before_rotation_mask_3_: 000F0000000F000D
 after_rotation_mask_3_: 1E00000000F0001A
 after_blockxor_mask_3_: 1EF01EF000EA001A
-
