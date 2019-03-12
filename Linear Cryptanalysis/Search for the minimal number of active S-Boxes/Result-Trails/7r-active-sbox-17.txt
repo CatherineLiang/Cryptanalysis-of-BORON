@@ -46,4 +46,3 @@ after_sbox_mask_6: 0000000000070000
 before_rotation_mask_6_: 0000000007000000
 after_rotation_mask_6_: 0000000070000000
 after_blockxor_mask_6_: 7000700070000000
-
