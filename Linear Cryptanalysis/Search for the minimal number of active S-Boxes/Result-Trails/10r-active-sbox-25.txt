@@ -67,4 +67,3 @@ after_sbox_mask_9: 00000000000E0000
 before_rotation_mask_9_: 000000000E000000
 after_rotation_mask_9_: 00000000E0000000
 after_blockxor_mask_9_: E000E000E0000000
-
