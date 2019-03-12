@@ -275,7 +275,7 @@ main()
 
 
     fprintf( fp, "QUERY(FALSE) ;\n" ) ;
-  	fprintf( fp, "COUNTEREXAMPLE ;\n" ) ;
+    fprintf( fp, "COUNTEREXAMPLE ;\n" ) ;
 
 
 
