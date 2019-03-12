@@ -53,4 +53,3 @@ after_sbox_mask_7: 00F0000000000080
 before_rotation_mask_7_: F000000000008000
 after_rotation_mask_7_: 01E0000000000001
 after_blockxor_mask_7_: 01E001E000010001
-
