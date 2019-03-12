@@ -39,4 +39,3 @@ after_sbox_mask_5: 000000F000F000A0
 before_rotation_mask_5_: 0000F000F000A000
 after_rotation_mask_5_: 00000078000F4001
 after_blockxor_mask_5_: 000F007740764079
-
