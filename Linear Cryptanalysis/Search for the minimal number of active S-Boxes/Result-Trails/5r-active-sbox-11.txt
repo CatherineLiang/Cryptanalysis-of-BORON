@@ -32,4 +32,3 @@ after_sbox_mask_4: 00000000000F0000
 before_rotation_mask_4_: 000000000F000000
 after_rotation_mask_4_: 00000000F0000000
 after_blockxor_mask_4_: F000F000F0000000
-
