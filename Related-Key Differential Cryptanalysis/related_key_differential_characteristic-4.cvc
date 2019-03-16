@@ -4822,6 +4822,6 @@ ASSERT( total_probability = BVPLUS(12, probability_0_0, probability_0_1, probabi
 ASSERT( total_probability_subkey = BVPLUS(12, probability_subkey_0, probability_subkey_1, probability_subkey_2, probability_subkey_3 ) ) ; 
 
 ASSERT( goal = BVPLUS(12, total_probability, total_probability_subkey) ) ;
-ASSERT( goal = 0hex004 ) ;
+ASSERT( goal = 0hex002 ) ;
 QUERY(FALSE) ;
 COUNTEREXAMPLE ;
