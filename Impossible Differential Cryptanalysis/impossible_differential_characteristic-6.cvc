@@ -4383,7 +4383,7 @@ ASSERT( IF ( before_sbox_difference_5_13=0hex0 AND after_sbox_difference_5_13=0h
 ASSERT( IF ( before_sbox_difference_5_14=0hex0 AND after_sbox_difference_5_14=0hex0 ) THEN flag_5_14=0hex000 ELSE flag_5_14=0hex001 ENDIF ) ;
 ASSERT( IF ( before_sbox_difference_5_15=0hex0 AND after_sbox_difference_5_15=0hex0 ) THEN flag_5_15=0hex000 ELSE flag_5_15=0hex001 ENDIF ) ;
 
-ASSERT( flag_0_0 = 0hex000 ) ;
+ASSERT( flag_0_0 = 0hex001 ) ;
 ASSERT( flag_0_1 = 0hex000 ) ;
 ASSERT( flag_0_2 = 0hex000 ) ;
 ASSERT( flag_0_3 = 0hex000 ) ;
@@ -4400,7 +4400,7 @@ ASSERT( flag_0_13 = 0hex000 ) ;
 ASSERT( flag_0_14 = 0hex000 ) ;
 ASSERT( flag_0_15 = 0hex000 ) ;
 
-ASSERT( flag_5_0 = 0hex000 ) ;
+ASSERT( flag_5_0 = 0hex001 ) ;
 ASSERT( flag_5_1 = 0hex000 ) ;
 ASSERT( flag_5_2 = 0hex000 ) ;
 ASSERT( flag_5_3 = 0hex000 ) ;
