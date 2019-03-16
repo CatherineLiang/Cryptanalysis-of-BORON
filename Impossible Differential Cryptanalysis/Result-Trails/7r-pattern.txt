@@ -1,0 +1,8 @@
+Numbers represent the location of active nibbles.
+Denote 4 bits as a nibble.
+Count from the right side and zero.
+
+input pattern: 4 ---> output pattern: 12
+input pattern: 5 ---> output pattern: 13
+input pattern: 6 ---> output pattern: 14
+input pattern: 7 ---> output pattern: 15
