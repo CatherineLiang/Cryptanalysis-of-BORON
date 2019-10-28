@@ -1,49 +1,41 @@
-probability_0: 002, 002, 000, 000, 000, 000, 000, 000, 002, 000, 002, 000, 000, 000, 002, 000, 
 before_sbox_difference_0: 4200000010A000F0
 after_sbox_difference_0: 75000000A0F00070
 before_rotation_difference_0_: 00750000F0A07000
 after_rotation_difference_0_: EA0000000A0FE000
 after_blockxor_difference_0_: 0A00E000E00F000F
 
-probability_1: 000, 002, 000, 000, 003, 000, 000, 000, 003, 000, 000, 002, 000, 000, 000, 002, 
 before_sbox_difference_1: 0A00E000E00F000F
 after_sbox_difference_1: 04003000800E0008
 before_rotation_difference_1_: 000400300E800800
 after_rotation_difference_1_: 08001800E8001000
 after_blockxor_difference_1_: 00000800E000F000
 
-probability_2: 000, 000, 000, 000, 000, 003, 000, 000, 003, 000, 000, 000, 002, 000, 000, 000, 
 before_sbox_difference_2: 00000800E000F000
 after_sbox_difference_2: 0000030010008000
 before_rotation_difference_2_: 0000000300100080
 after_rotation_difference_2_: 0000018001000100
 after_blockxor_difference_2_: 0080008001000000
 
-probability_3: 000, 000, 003, 000, 000, 000, 002, 000, 000, 003, 000, 000, 000, 000, 000, 000, 
 before_sbox_difference_3: 0080008001000000
 after_sbox_difference_3: 003000C006000000
 before_rotation_difference_3_: 3000C00000060000
 after_rotation_difference_3_: 0060006000600000
 after_blockxor_difference_3_: 0000006000000000
 
-probability_4: 000, 000, 000, 000, 000, 000, 002, 000, 000, 000, 000, 000, 000, 000, 000, 000, 
 before_sbox_difference_4: 0000006000000000
 after_sbox_difference_4: 000000E000000000
 before_rotation_difference_4_: 0000E00000000000
 after_rotation_difference_4_: 0000007000000000
 after_blockxor_difference_4_: 0070007000000000
 
-probability_5: 000, 000, 003, 000, 000, 000, 003, 000, 000, 000, 000, 000, 000, 000, 000, 000, 
 before_sbox_difference_5: 0070007000000000
 after_sbox_difference_5: 0010004000000000
 before_rotation_difference_5_: 1000400000000000
 after_rotation_difference_5_: 0020002000000000
 after_blockxor_difference_5_: 0000002000200020
-
-probability_6: 000, 000, 000, 000, 000, 000, 002, 000, 000, 000, 002, 000, 000, 000, 002, 000, 
+ 
 before_sbox_difference_6: 0000002000200020
 after_sbox_difference_6: 000000B0005000D0
 before_rotation_difference_6_: 0000B0005000D000
 after_rotation_difference_6_: 000000580005A001
 after_blockxor_difference_6_: A059A0590005A004
-
