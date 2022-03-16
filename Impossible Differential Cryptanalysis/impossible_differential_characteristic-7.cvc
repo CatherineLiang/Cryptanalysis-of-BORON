@@ -1486,15 +1486,15 @@ ASSERT( after_sbox_difference_0_13 = BVXOR(after_sbox_value1_0_13,after_sbox_val
 ASSERT( after_sbox_difference_0_14 = BVXOR(after_sbox_value1_0_14,after_sbox_value2_0_14) ) ;
 ASSERT( after_sbox_difference_0_15 = BVXOR(after_sbox_value1_0_15,after_sbox_value2_0_15) ) ;
 
-ASSERT( before_rotation_difference_0_0 = after_sbox_difference_0_2@after_sbox_difference_0_3@after_sbox_difference_0_0@after_sbox_difference_0_1 ) ;
-ASSERT( before_rotation_difference_0_1 = after_sbox_difference_0_6@after_sbox_difference_0_7@after_sbox_difference_0_4@after_sbox_difference_0_5 ) ;
-ASSERT( before_rotation_difference_0_2 = after_sbox_difference_0_10@after_sbox_difference_0_11@after_sbox_difference_0_8@after_sbox_difference_0_9 ) ;
-ASSERT( before_rotation_difference_0_3 = after_sbox_difference_0_14@after_sbox_difference_0_15@after_sbox_difference_0_12@after_sbox_difference_0_13 ) ;
+ASSERT( before_rotation_difference_0_0 = after_sbox_difference_0_1@after_sbox_difference_0_0@after_sbox_difference_0_3@after_sbox_difference_0_2 ) ;
+ASSERT( before_rotation_difference_0_1 = after_sbox_difference_0_5@after_sbox_difference_0_4@after_sbox_difference_0_7@after_sbox_difference_0_6 ) ;
+ASSERT( before_rotation_difference_0_2 = after_sbox_difference_0_9@after_sbox_difference_0_8@after_sbox_difference_0_11@after_sbox_difference_0_10 ) ;
+ASSERT( before_rotation_difference_0_3 = after_sbox_difference_0_13@after_sbox_difference_0_12@after_sbox_difference_0_15@after_sbox_difference_0_14 ) ;
 
 ASSERT( after_rotation_difference_0_0 = before_rotation_difference_0_0[14:0]@before_rotation_difference_0_0[15:15] ) ;
 ASSERT( after_rotation_difference_0_1 = before_rotation_difference_0_1[11:0]@before_rotation_difference_0_1[15:12] ) ;
-ASSERT( after_rotation_difference_0_2 = before_rotation_difference_0_2[6:0]@before_rotation_difference_0_2[15:7] ) ;
-ASSERT( after_rotation_difference_0_3 = before_rotation_difference_0_3[8:0]@before_rotation_difference_0_3[15:9] ) ;
+ASSERT( after_rotation_difference_0_2 = before_rotation_difference_0_2[8:0]@before_rotation_difference_0_2[15:9] ) ;
+ASSERT( after_rotation_difference_0_3 = before_rotation_difference_0_3[6:0]@before_rotation_difference_0_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_0_1 = BVXOR(after_rotation_difference_0_1,after_rotation_difference_0_3) );
 ASSERT( after_blockxor_difference_0_2 = BVXOR(after_rotation_difference_0_0,after_rotation_difference_0_2) );
@@ -2082,15 +2082,15 @@ ASSERT( after_sbox_difference_1_13 = BVXOR(after_sbox_value1_1_13,after_sbox_val
 ASSERT( after_sbox_difference_1_14 = BVXOR(after_sbox_value1_1_14,after_sbox_value2_1_14) ) ;
 ASSERT( after_sbox_difference_1_15 = BVXOR(after_sbox_value1_1_15,after_sbox_value2_1_15) ) ;
 
-ASSERT( before_rotation_difference_1_0 = after_sbox_difference_1_2@after_sbox_difference_1_3@after_sbox_difference_1_0@after_sbox_difference_1_1 ) ;
-ASSERT( before_rotation_difference_1_1 = after_sbox_difference_1_6@after_sbox_difference_1_7@after_sbox_difference_1_4@after_sbox_difference_1_5 ) ;
-ASSERT( before_rotation_difference_1_2 = after_sbox_difference_1_10@after_sbox_difference_1_11@after_sbox_difference_1_8@after_sbox_difference_1_9 ) ;
-ASSERT( before_rotation_difference_1_3 = after_sbox_difference_1_14@after_sbox_difference_1_15@after_sbox_difference_1_12@after_sbox_difference_1_13 ) ;
+ASSERT( before_rotation_difference_1_0 = after_sbox_difference_1_1@after_sbox_difference_1_0@after_sbox_difference_1_3@after_sbox_difference_1_2 ) ;
+ASSERT( before_rotation_difference_1_1 = after_sbox_difference_1_5@after_sbox_difference_1_4@after_sbox_difference_1_7@after_sbox_difference_1_6 ) ;
+ASSERT( before_rotation_difference_1_2 = after_sbox_difference_1_9@after_sbox_difference_1_8@after_sbox_difference_1_11@after_sbox_difference_1_10 ) ;
+ASSERT( before_rotation_difference_1_3 = after_sbox_difference_1_13@after_sbox_difference_1_12@after_sbox_difference_1_15@after_sbox_difference_1_14 ) ;
 
 ASSERT( after_rotation_difference_1_0 = before_rotation_difference_1_0[14:0]@before_rotation_difference_1_0[15:15] ) ;
 ASSERT( after_rotation_difference_1_1 = before_rotation_difference_1_1[11:0]@before_rotation_difference_1_1[15:12] ) ;
-ASSERT( after_rotation_difference_1_2 = before_rotation_difference_1_2[6:0]@before_rotation_difference_1_2[15:7] ) ;
-ASSERT( after_rotation_difference_1_3 = before_rotation_difference_1_3[8:0]@before_rotation_difference_1_3[15:9] ) ;
+ASSERT( after_rotation_difference_1_2 = before_rotation_difference_1_2[8:0]@before_rotation_difference_1_2[15:9] ) ;
+ASSERT( after_rotation_difference_1_3 = before_rotation_difference_1_3[6:0]@before_rotation_difference_1_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_1_1 = BVXOR(after_rotation_difference_1_1,after_rotation_difference_1_3) );
 ASSERT( after_blockxor_difference_1_2 = BVXOR(after_rotation_difference_1_0,after_rotation_difference_1_2) );
@@ -2678,15 +2678,15 @@ ASSERT( after_sbox_difference_2_13 = BVXOR(after_sbox_value1_2_13,after_sbox_val
 ASSERT( after_sbox_difference_2_14 = BVXOR(after_sbox_value1_2_14,after_sbox_value2_2_14) ) ;
 ASSERT( after_sbox_difference_2_15 = BVXOR(after_sbox_value1_2_15,after_sbox_value2_2_15) ) ;
 
-ASSERT( before_rotation_difference_2_0 = after_sbox_difference_2_2@after_sbox_difference_2_3@after_sbox_difference_2_0@after_sbox_difference_2_1 ) ;
-ASSERT( before_rotation_difference_2_1 = after_sbox_difference_2_6@after_sbox_difference_2_7@after_sbox_difference_2_4@after_sbox_difference_2_5 ) ;
-ASSERT( before_rotation_difference_2_2 = after_sbox_difference_2_10@after_sbox_difference_2_11@after_sbox_difference_2_8@after_sbox_difference_2_9 ) ;
-ASSERT( before_rotation_difference_2_3 = after_sbox_difference_2_14@after_sbox_difference_2_15@after_sbox_difference_2_12@after_sbox_difference_2_13 ) ;
+ASSERT( before_rotation_difference_2_0 = after_sbox_difference_2_1@after_sbox_difference_2_0@after_sbox_difference_2_3@after_sbox_difference_2_2 ) ;
+ASSERT( before_rotation_difference_2_1 = after_sbox_difference_2_5@after_sbox_difference_2_4@after_sbox_difference_2_7@after_sbox_difference_2_6 ) ;
+ASSERT( before_rotation_difference_2_2 = after_sbox_difference_2_9@after_sbox_difference_2_8@after_sbox_difference_2_11@after_sbox_difference_2_10 ) ;
+ASSERT( before_rotation_difference_2_3 = after_sbox_difference_2_13@after_sbox_difference_2_12@after_sbox_difference_2_15@after_sbox_difference_2_14 ) ;
 
 ASSERT( after_rotation_difference_2_0 = before_rotation_difference_2_0[14:0]@before_rotation_difference_2_0[15:15] ) ;
 ASSERT( after_rotation_difference_2_1 = before_rotation_difference_2_1[11:0]@before_rotation_difference_2_1[15:12] ) ;
-ASSERT( after_rotation_difference_2_2 = before_rotation_difference_2_2[6:0]@before_rotation_difference_2_2[15:7] ) ;
-ASSERT( after_rotation_difference_2_3 = before_rotation_difference_2_3[8:0]@before_rotation_difference_2_3[15:9] ) ;
+ASSERT( after_rotation_difference_2_2 = before_rotation_difference_2_2[8:0]@before_rotation_difference_2_2[15:9] ) ;
+ASSERT( after_rotation_difference_2_3 = before_rotation_difference_2_3[6:0]@before_rotation_difference_2_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_2_1 = BVXOR(after_rotation_difference_2_1,after_rotation_difference_2_3) );
 ASSERT( after_blockxor_difference_2_2 = BVXOR(after_rotation_difference_2_0,after_rotation_difference_2_2) );
@@ -3274,15 +3274,15 @@ ASSERT( after_sbox_difference_3_13 = BVXOR(after_sbox_value1_3_13,after_sbox_val
 ASSERT( after_sbox_difference_3_14 = BVXOR(after_sbox_value1_3_14,after_sbox_value2_3_14) ) ;
 ASSERT( after_sbox_difference_3_15 = BVXOR(after_sbox_value1_3_15,after_sbox_value2_3_15) ) ;
 
-ASSERT( before_rotation_difference_3_0 = after_sbox_difference_3_2@after_sbox_difference_3_3@after_sbox_difference_3_0@after_sbox_difference_3_1 ) ;
-ASSERT( before_rotation_difference_3_1 = after_sbox_difference_3_6@after_sbox_difference_3_7@after_sbox_difference_3_4@after_sbox_difference_3_5 ) ;
-ASSERT( before_rotation_difference_3_2 = after_sbox_difference_3_10@after_sbox_difference_3_11@after_sbox_difference_3_8@after_sbox_difference_3_9 ) ;
-ASSERT( before_rotation_difference_3_3 = after_sbox_difference_3_14@after_sbox_difference_3_15@after_sbox_difference_3_12@after_sbox_difference_3_13 ) ;
+ASSERT( before_rotation_difference_3_0 = after_sbox_difference_3_1@after_sbox_difference_3_0@after_sbox_difference_3_3@after_sbox_difference_3_2 ) ;
+ASSERT( before_rotation_difference_3_1 = after_sbox_difference_3_5@after_sbox_difference_3_4@after_sbox_difference_3_7@after_sbox_difference_3_6 ) ;
+ASSERT( before_rotation_difference_3_2 = after_sbox_difference_3_9@after_sbox_difference_3_8@after_sbox_difference_3_11@after_sbox_difference_3_10 ) ;
+ASSERT( before_rotation_difference_3_3 = after_sbox_difference_3_13@after_sbox_difference_3_12@after_sbox_difference_3_15@after_sbox_difference_3_14 ) ;
 
 ASSERT( after_rotation_difference_3_0 = before_rotation_difference_3_0[14:0]@before_rotation_difference_3_0[15:15] ) ;
 ASSERT( after_rotation_difference_3_1 = before_rotation_difference_3_1[11:0]@before_rotation_difference_3_1[15:12] ) ;
-ASSERT( after_rotation_difference_3_2 = before_rotation_difference_3_2[6:0]@before_rotation_difference_3_2[15:7] ) ;
-ASSERT( after_rotation_difference_3_3 = before_rotation_difference_3_3[8:0]@before_rotation_difference_3_3[15:9] ) ;
+ASSERT( after_rotation_difference_3_2 = before_rotation_difference_3_2[8:0]@before_rotation_difference_3_2[15:9] ) ;
+ASSERT( after_rotation_difference_3_3 = before_rotation_difference_3_3[6:0]@before_rotation_difference_3_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_3_1 = BVXOR(after_rotation_difference_3_1,after_rotation_difference_3_3) );
 ASSERT( after_blockxor_difference_3_2 = BVXOR(after_rotation_difference_3_0,after_rotation_difference_3_2) );
@@ -3870,15 +3870,15 @@ ASSERT( after_sbox_difference_4_13 = BVXOR(after_sbox_value1_4_13,after_sbox_val
 ASSERT( after_sbox_difference_4_14 = BVXOR(after_sbox_value1_4_14,after_sbox_value2_4_14) ) ;
 ASSERT( after_sbox_difference_4_15 = BVXOR(after_sbox_value1_4_15,after_sbox_value2_4_15) ) ;
 
-ASSERT( before_rotation_difference_4_0 = after_sbox_difference_4_2@after_sbox_difference_4_3@after_sbox_difference_4_0@after_sbox_difference_4_1 ) ;
-ASSERT( before_rotation_difference_4_1 = after_sbox_difference_4_6@after_sbox_difference_4_7@after_sbox_difference_4_4@after_sbox_difference_4_5 ) ;
-ASSERT( before_rotation_difference_4_2 = after_sbox_difference_4_10@after_sbox_difference_4_11@after_sbox_difference_4_8@after_sbox_difference_4_9 ) ;
-ASSERT( before_rotation_difference_4_3 = after_sbox_difference_4_14@after_sbox_difference_4_15@after_sbox_difference_4_12@after_sbox_difference_4_13 ) ;
+ASSERT( before_rotation_difference_4_0 = after_sbox_difference_4_1@after_sbox_difference_4_0@after_sbox_difference_4_3@after_sbox_difference_4_2 ) ;
+ASSERT( before_rotation_difference_4_1 = after_sbox_difference_4_5@after_sbox_difference_4_4@after_sbox_difference_4_7@after_sbox_difference_4_6 ) ;
+ASSERT( before_rotation_difference_4_2 = after_sbox_difference_4_9@after_sbox_difference_4_8@after_sbox_difference_4_11@after_sbox_difference_4_10 ) ;
+ASSERT( before_rotation_difference_4_3 = after_sbox_difference_4_13@after_sbox_difference_4_12@after_sbox_difference_4_15@after_sbox_difference_4_14 ) ;
 
 ASSERT( after_rotation_difference_4_0 = before_rotation_difference_4_0[14:0]@before_rotation_difference_4_0[15:15] ) ;
 ASSERT( after_rotation_difference_4_1 = before_rotation_difference_4_1[11:0]@before_rotation_difference_4_1[15:12] ) ;
-ASSERT( after_rotation_difference_4_2 = before_rotation_difference_4_2[6:0]@before_rotation_difference_4_2[15:7] ) ;
-ASSERT( after_rotation_difference_4_3 = before_rotation_difference_4_3[8:0]@before_rotation_difference_4_3[15:9] ) ;
+ASSERT( after_rotation_difference_4_2 = before_rotation_difference_4_2[8:0]@before_rotation_difference_4_2[15:9] ) ;
+ASSERT( after_rotation_difference_4_3 = before_rotation_difference_4_3[6:0]@before_rotation_difference_4_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_4_1 = BVXOR(after_rotation_difference_4_1,after_rotation_difference_4_3) );
 ASSERT( after_blockxor_difference_4_2 = BVXOR(after_rotation_difference_4_0,after_rotation_difference_4_2) );
@@ -4466,15 +4466,15 @@ ASSERT( after_sbox_difference_5_13 = BVXOR(after_sbox_value1_5_13,after_sbox_val
 ASSERT( after_sbox_difference_5_14 = BVXOR(after_sbox_value1_5_14,after_sbox_value2_5_14) ) ;
 ASSERT( after_sbox_difference_5_15 = BVXOR(after_sbox_value1_5_15,after_sbox_value2_5_15) ) ;
 
-ASSERT( before_rotation_difference_5_0 = after_sbox_difference_5_2@after_sbox_difference_5_3@after_sbox_difference_5_0@after_sbox_difference_5_1 ) ;
-ASSERT( before_rotation_difference_5_1 = after_sbox_difference_5_6@after_sbox_difference_5_7@after_sbox_difference_5_4@after_sbox_difference_5_5 ) ;
-ASSERT( before_rotation_difference_5_2 = after_sbox_difference_5_10@after_sbox_difference_5_11@after_sbox_difference_5_8@after_sbox_difference_5_9 ) ;
-ASSERT( before_rotation_difference_5_3 = after_sbox_difference_5_14@after_sbox_difference_5_15@after_sbox_difference_5_12@after_sbox_difference_5_13 ) ;
+ASSERT( before_rotation_difference_5_0 = after_sbox_difference_5_1@after_sbox_difference_5_0@after_sbox_difference_5_3@after_sbox_difference_5_2 ) ;
+ASSERT( before_rotation_difference_5_1 = after_sbox_difference_5_5@after_sbox_difference_5_4@after_sbox_difference_5_7@after_sbox_difference_5_6 ) ;
+ASSERT( before_rotation_difference_5_2 = after_sbox_difference_5_9@after_sbox_difference_5_8@after_sbox_difference_5_11@after_sbox_difference_5_10 ) ;
+ASSERT( before_rotation_difference_5_3 = after_sbox_difference_5_13@after_sbox_difference_5_12@after_sbox_difference_5_15@after_sbox_difference_5_14 ) ;
 
 ASSERT( after_rotation_difference_5_0 = before_rotation_difference_5_0[14:0]@before_rotation_difference_5_0[15:15] ) ;
 ASSERT( after_rotation_difference_5_1 = before_rotation_difference_5_1[11:0]@before_rotation_difference_5_1[15:12] ) ;
-ASSERT( after_rotation_difference_5_2 = before_rotation_difference_5_2[6:0]@before_rotation_difference_5_2[15:7] ) ;
-ASSERT( after_rotation_difference_5_3 = before_rotation_difference_5_3[8:0]@before_rotation_difference_5_3[15:9] ) ;
+ASSERT( after_rotation_difference_5_2 = before_rotation_difference_5_2[8:0]@before_rotation_difference_5_2[15:9] ) ;
+ASSERT( after_rotation_difference_5_3 = before_rotation_difference_5_3[6:0]@before_rotation_difference_5_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_5_1 = BVXOR(after_rotation_difference_5_1,after_rotation_difference_5_3) );
 ASSERT( after_blockxor_difference_5_2 = BVXOR(after_rotation_difference_5_0,after_rotation_difference_5_2) );
@@ -5062,15 +5062,15 @@ ASSERT( after_sbox_difference_6_13 = BVXOR(after_sbox_value1_6_13,after_sbox_val
 ASSERT( after_sbox_difference_6_14 = BVXOR(after_sbox_value1_6_14,after_sbox_value2_6_14) ) ;
 ASSERT( after_sbox_difference_6_15 = BVXOR(after_sbox_value1_6_15,after_sbox_value2_6_15) ) ;
 
-ASSERT( before_rotation_difference_6_0 = after_sbox_difference_6_2@after_sbox_difference_6_3@after_sbox_difference_6_0@after_sbox_difference_6_1 ) ;
-ASSERT( before_rotation_difference_6_1 = after_sbox_difference_6_6@after_sbox_difference_6_7@after_sbox_difference_6_4@after_sbox_difference_6_5 ) ;
-ASSERT( before_rotation_difference_6_2 = after_sbox_difference_6_10@after_sbox_difference_6_11@after_sbox_difference_6_8@after_sbox_difference_6_9 ) ;
-ASSERT( before_rotation_difference_6_3 = after_sbox_difference_6_14@after_sbox_difference_6_15@after_sbox_difference_6_12@after_sbox_difference_6_13 ) ;
+ASSERT( before_rotation_difference_6_0 = after_sbox_difference_6_1@after_sbox_difference_6_0@after_sbox_difference_6_3@after_sbox_difference_6_2 ) ;
+ASSERT( before_rotation_difference_6_1 = after_sbox_difference_6_5@after_sbox_difference_6_4@after_sbox_difference_6_7@after_sbox_difference_6_6 ) ;
+ASSERT( before_rotation_difference_6_2 = after_sbox_difference_6_9@after_sbox_difference_6_8@after_sbox_difference_6_11@after_sbox_difference_6_10 ) ;
+ASSERT( before_rotation_difference_6_3 = after_sbox_difference_6_13@after_sbox_difference_6_12@after_sbox_difference_6_15@after_sbox_difference_6_14 ) ;
 
 ASSERT( after_rotation_difference_6_0 = before_rotation_difference_6_0[14:0]@before_rotation_difference_6_0[15:15] ) ;
 ASSERT( after_rotation_difference_6_1 = before_rotation_difference_6_1[11:0]@before_rotation_difference_6_1[15:12] ) ;
-ASSERT( after_rotation_difference_6_2 = before_rotation_difference_6_2[6:0]@before_rotation_difference_6_2[15:7] ) ;
-ASSERT( after_rotation_difference_6_3 = before_rotation_difference_6_3[8:0]@before_rotation_difference_6_3[15:9] ) ;
+ASSERT( after_rotation_difference_6_2 = before_rotation_difference_6_2[8:0]@before_rotation_difference_6_2[15:9] ) ;
+ASSERT( after_rotation_difference_6_3 = before_rotation_difference_6_3[6:0]@before_rotation_difference_6_3[15:7] ) ;
 
 ASSERT( after_blockxor_difference_6_1 = BVXOR(after_rotation_difference_6_1,after_rotation_difference_6_3) );
 ASSERT( after_blockxor_difference_6_2 = BVXOR(after_rotation_difference_6_0,after_rotation_difference_6_2) );
