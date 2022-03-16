@@ -121,17 +121,17 @@ main()
 
         fprintf( fp, "\n" ) ;
 
-        fprintf( fp, "ASSERT( before_rotation_difference_%d_0 = after_sbox_difference_%d_2@after_sbox_difference_%d_3@after_sbox_difference_%d_0@after_sbox_difference_%d_1 ) ;\n", r, r, r, r, r ) ;
-        fprintf( fp, "ASSERT( before_rotation_difference_%d_1 = after_sbox_difference_%d_6@after_sbox_difference_%d_7@after_sbox_difference_%d_4@after_sbox_difference_%d_5 ) ;\n", r, r, r, r, r ) ;
-        fprintf( fp, "ASSERT( before_rotation_difference_%d_2 = after_sbox_difference_%d_10@after_sbox_difference_%d_11@after_sbox_difference_%d_8@after_sbox_difference_%d_9 ) ;\n", r, r, r, r, r ) ;
-        fprintf( fp, "ASSERT( before_rotation_difference_%d_3 = after_sbox_difference_%d_14@after_sbox_difference_%d_15@after_sbox_difference_%d_12@after_sbox_difference_%d_13 ) ;\n", r, r, r, r, r ) ;
+        fprintf( fp, "ASSERT( before_rotation_difference_%d_0 = after_sbox_difference_%d_1@after_sbox_difference_%d_0@after_sbox_difference_%d_3@after_sbox_difference_%d_2 ) ;\n", r, r, r, r, r ) ;
+        fprintf( fp, "ASSERT( before_rotation_difference_%d_1 = after_sbox_difference_%d_5@after_sbox_difference_%d_4@after_sbox_difference_%d_7@after_sbox_difference_%d_6 ) ;\n", r, r, r, r, r ) ;
+        fprintf( fp, "ASSERT( before_rotation_difference_%d_2 = after_sbox_difference_%d_9@after_sbox_difference_%d_8@after_sbox_difference_%d_11@after_sbox_difference_%d_10 ) ;\n", r, r, r, r, r ) ;
+        fprintf( fp, "ASSERT( before_rotation_difference_%d_3 = after_sbox_difference_%d_13@after_sbox_difference_%d_12@after_sbox_difference_%d_15@after_sbox_difference_%d_14 ) ;\n", r, r, r, r, r ) ;
 
         fprintf( fp, "\n" ) ;
 
         fprintf( fp, "ASSERT( after_rotation_difference_%d_0 = before_rotation_difference_%d_0[14:0]@before_rotation_difference_%d_0[15:15] ) ;\n", r, r, r ) ;
         fprintf( fp, "ASSERT( after_rotation_difference_%d_1 = before_rotation_difference_%d_1[11:0]@before_rotation_difference_%d_1[15:12] ) ;\n", r, r, r ) ;
-        fprintf( fp, "ASSERT( after_rotation_difference_%d_2 = before_rotation_difference_%d_2[6:0]@before_rotation_difference_%d_2[15:7] ) ;\n", r, r, r ) ;
-        fprintf( fp, "ASSERT( after_rotation_difference_%d_3 = before_rotation_difference_%d_3[8:0]@before_rotation_difference_%d_3[15:9] ) ;\n", r, r, r ) ;
+        fprintf( fp, "ASSERT( after_rotation_difference_%d_2 = before_rotation_difference_%d_2[8:0]@before_rotation_difference_%d_2[15:9] ) ;\n", r, r, r ) ;
+        fprintf( fp, "ASSERT( after_rotation_difference_%d_3 = before_rotation_difference_%d_3[6:0]@before_rotation_difference_%d_3[15:7] ) ;\n", r, r, r ) ;
 
         fprintf( fp, "\n" ) ;
 
